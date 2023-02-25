@@ -1,1090 +1,1032 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- favicon -->
+      <link
+         rel="shortcut icon"
+         href="./packages/images/favicon.ico"
+         type="image/x-icon"
+         />
+      <!-- style css -->
+      <link rel="stylesheet" href="./packages/css/styles.css" />
+      <link
+         rel="stylesheet"
+         href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+         />
+      <!-- icons -->
+      <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+      <!-- email js -->
+      <script
+         type="text/javascript"
+         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+         ></script>
+      <script type="text/javascript">
+         (function () {
+           emailjs.init("5aB1dFfrJvJAj2UPD");
+         })();
+      </script>
+      <!-- HTML Meta Tags -->
+      <title>Keven Meehan - Portfolio</title>
+      <link rel="canonical" href="http://mister-kev.github.io/" />
+      <meta
+         name="description"
+         content="As an Analyst, I transform data into valuable insights to help businesses enhance their operations and drive growth."
+         />
+      <meta
+         name="keywords"
+         content="meehan,meehankeven,keven,meehan-keven,ux,ui,graphic,design,branding,experience,iOS,android,product,manager,freelance,interface,app,react,laravel,designer,cv,web,website,websites,web design,design,graphic design,logo design,freelance,responsive,mobile,mobile design,unique,fun,typography,hand drawn,lettering,illustration,fonts,type,handdrawn,affordable,small business,personal,blog,portfolio,store,prints,font,icons,developer-portfolio"
+         />
+      <!-- Facebook Meta Tags -->
+      <meta
+         property="og:site_name"
+         content="Keven Meehan - Senior Analyst"
+         />
+      <meta property="og:locale" content="hi_IN" />
+      <meta property="og:url" content="https://mister-kev.github.io.io/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Keven Meehan - React v.1.03" />
+      <meta
+         property="og:description"
+         content="As an Analyst, I transform data into valuable insights to help businesses enhance their operations and drive growth."
+         />
+      <meta
+         property="og:image"
+         content="https://mister-kev.github.io.io/packages/images/keven-meehan.webp"
+         />
+      <meta property="og:image:width" content="400" />
+      <meta property="og:image:height" content="400" />
+      <meta property="og:image:type" content="image/webp" />
+      <!-- Twitter Meta Tags -->
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:domain" content="mister-kev.github.io.io" />
+      <meta property="twitter:url" content="https://mister-kev.github.io.io/" />
+      <meta
+         name="twitter:title"
+         content="Keven Meehan - Sr Analyst"
+         />
+      <meta
+         name="twitter:description"
+         content="As an Analyst, I transform data into valuable insights to help businesses enhance their operations and drive growth."
+         />
+      <meta
+         name="twitter:image"
+         content="https://mister-kev.github.io.io/packages/images/kevenmeehan.webp"
+         />
+      <!-- Google tag (gtag.js) -->
+      <script
+         async
+         src="https://www.googletagmanager.com/gtag/js?id=G-8710PKQN9T"
+         ></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag() {
+           dataLayer.push(arguments);
+         }
+         gtag("js", new Date());
+         
+         gtag("config", "G-8S29RQC765");
+      </script>
+      <!-- Google Analytics -->
+      <script>
+         (function (i, s, o, g, r, a, m) {
+           i["GoogleAnalyticsObject"] = r;
+           (i[r] =
+             i[r] ||
+             function () {
+               (i[r].q = i[r].q || []).push(arguments);
+             }),
+             (i[r].l = 1 * new Date());
+           (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+           a.async = 1;
+           a.src = g;
+           m.parentNode.insertBefore(a, m);
+         })(
+           window,
+           document,
+           "script",
+           "https://www.google-analytics.com/analytics.js",
+           "ga"
+         );
+         
+         ga("create", "UA-200608746-1", "auto");
+         ga(
+           "send",
+           "pageview",
+           "myTracker.send",
+           "event",
+           "Video",
+           "play",
+           "cats.mp4"
+         );
+      </script>
+      <!-- Google Tag Manager -->
+      <script>
+         (function (w, d, s, l, i) {
+           w[l] = w[l] || [];
+           w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+           var f = d.getElementsByTagName(s)[0],
+             j = d.createElement(s),
+             dl = l != "dataLayer" ? "&l=" + l : "";
+           j.async = true;
+           j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+           f.parentNode.insertBefore(j, f);
+         })(window, document, "script", "dataLayer", "GTM-N5J7FK4");
+      </script>
+      <!-- End Google Tag Manager -->
+      
+      <meta name="google-site-verification" content="oAHQfQpyVq9pMfO0wvWPD3M8usaGNygDvjTw66kitfY"/>
 
-    <!-- favicon -->
-    <link
-      rel="shortcut icon"
-      href="./packages/images/favicon.ico"
-      type="image/x-icon"
-    />
-
-    <!-- style css -->
-    <link rel="stylesheet" href="./packages/css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-
-    <!-- icons -->
-    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-
-    <!-- email js -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
-
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("5aB1dFfrJvJAj2UPD");
-      })();
-    </script>
-
-    <!-- HTML Meta Tags -->
-    <title>Keven Meehan - Portfolio</title>
-    <link rel="canonical" href="http://mister-kev.github.io/" />
-    <meta
-      name="description"
-      content="As an Analyst, I transform data into valuable insights to help businesses enhance their operations and drive growth."
-    />
-    <meta
-      name="keywords"
-      content="meehan,meehankeven,keven,meehan-keven,ux,ui,graphic,design,branding,experience,iOS,android,product,manager,freelance,interface,app,react,laravel,designer,cv,web,website,websites,web design,design,graphic design,logo design,freelance,responsive,mobile,mobile design,unique,fun,typography,hand drawn,lettering,illustration,fonts,type,handdrawn,affordable,small business,personal,blog,portfolio,store,prints,font,icons,developer-portfolio"
-    />
-
-    <!-- Facebook Meta Tags -->
-    <meta
-      property="og:site_name"
-      content="Keven Meehan - Senior Analyst"
-    />
-    <meta property="og:locale" content="hi_IN" />
-    <meta property="og:url" content="https://mister-kev.github.io.io/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Keven Meehan - React v.1.03" />
-    <meta
-      property="og:description"
-      content="As an Analyst, I transform data into valuable insights to help businesses enhance their operations and drive growth."
-    />
-    <meta
-      property="og:image"
-      content="https://mister-kev.github.io.io/packages/images/keven-meehan.webp"
-    />
-    <meta property="og:image:width" content="400" />
-    <meta property="og:image:height" content="400" />
-    <meta property="og:image:type" content="image/webp" />
-
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="mister-kev.github.io.io" />
-    <meta property="twitter:url" content="https://mister-kev.github.io.io/" />
-    <meta
-      name="twitter:title"
-      content="Keven Meehan - Sr Analyst"
-    />
-    <meta
-      name="twitter:description"
-      content="As an Analyst, I transform data into valuable insights to help businesses enhance their operations and drive growth."
-    />
-    <meta
-      name="twitter:image"
-      content="https://mister-kev.github.io.io/packages/images/kevenmeehan.webp"
-    />
-
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-8710PKQN9T"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-8S29RQC765");
-    </script>
-
-    <!-- Google Analytics -->
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "https://www.google-analytics.com/analytics.js",
-        "ga"
-      );
-
-      ga("create", "UA-200608746-1", "auto");
-      ga(
-        "send",
-        "pageview",
-        "myTracker.send",
-        "event",
-        "Video",
-        "play",
-        "cats.mp4"
-      );
-    </script>
-
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-N5J7FK4");
-    </script>
-    <!-- End Google Tag Manager -->
-  </head>
-
-  <body onload="preLoader()">
-    <!--==================== Loader ====================-->
-    <!-- <div id="loading"></div> -->
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-N5J7FK4"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">
-          <img src="./packages/images/logo.webp" alt="Logo" title="Logo" />
-        </a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link hover-underline">
-                <i class="uil uil-estate nav__icon"></i>Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link hover-underline">
-                <i class="uil uil-user nav__icon"></i>About
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link hover-underline">
-                <i class="uil uil-file-alt nav__icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#projects" class="nav__link hover-underline">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Projects
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link hover-underline">
-                <i class="uil uil-message nav__icon"></i>Contact
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
-        </div>
-        <div class="nav__btns">
-          <a
-            onclick="window.open('https://drive.google.com/file/d/1kznD1ccIINV8wT8oMJyOOgtvfD4JKLUl/view','_blank')"
-            class="resume-button"
-            href="./packages/resume/Keven-Meehan-Resume.pdf"
-            download="Keven-Meehan-Resume"
-            title="download"
-            >Resume</a
-          >
-        </div>
-        <div class="nav__btns">
-          <i
-            class="uil uil-moon change-theme"
-            style="margin-left: 10px"
-            id="theme-button"
-            title="Theme"
-          ></i>
-
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!--==================== MAIN ====================-->
-    <main class="main">
-      <!--==================== HOME ====================-->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
-              <!-- linkedin -->
-              <a
-                href="https://www.linkedin.com/in/kevenm/"
-                target="_blank"
-                class="home__social-icon"
-                title="Linkedin"
-              >
-                <i class="uil uil-linkedin-alt"></i>
-              </a>
-
-              <!-- github -->
-                <a
-                href="https://www.github.com/mister-kev"
-                target="_blank"
-                class="home__social-icon"
-                title="GitHub"
-              >
-                <i class="uil uil-github-alt"></i>
-              </a>
-              
-              <!-- twitter -->
-              <a
-                href="https://twitter.com/kevstrip/"
-                target="_blank"
-                class="home__social-icon"
-                title="Twitter"
-              >
-                <i class="uil uil-twitter-alt"></i>
-              </a>
-
-              <!-- instagram -->
-              <a
-                href="https://instagram.com/kevenfm"
-                target="_blank"
-                class="home__social-icon"
-                title="Instagram"
-              >
-                <i class="uil uil-instagram-alt"></i>
-              </a>
-            </div>
-            
-            <div class="home__data">
-              <span style="font-size: 16px">Hi, my name is</span>
-              <h1 class="home__title">Keven Meehan</h1>
-              <h3 class="home__subtitle">I analyze complex data.</h3>
-              <p class="home__description">
-                My approach to tackling complex business inquiries involves 
-                leveraging a wealth of knowledge and scientific understanding. 
-                At the moment, I'm actively engaged in developing my skills in React, Solidity, 
-                and artificial intelligence.
-              </p>
-              <a
-                href="#contact"
-                class="button button--flex home__button"
-                title="Contact me"
-              >
-                Contact Me<i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll Down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+   </head>
+   <body onload="preLoader()">
+      <!--==================== Loader ====================-->
+      <!-- <div id="loading"></div> -->
+      <!-- Google Tag Manager (noscript) -->
+      <noscript
+         ><iframe
+         src="https://www.googletagmanager.com/ns.html?id=GTM-N5J7FK4"
+         height="0"
+         width="0"
+         style="display: none; visibility: hidden"
+         ></iframe
+         ></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+            <img src="./packages/images/logo.webp" alt="Logo" title="Logo" />
             </a>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My bio</span>
-
-        <div class="about__container container grid">
-          <img
-            src="packages/images/kevenmeehan.webp"
-            alt="Keven's image"
-            class="about__img"
-          />
-          <div class="about__data">
-            <p class="about__description">
-              Hi, I'm Keven! I bring expertise in data analysis, 
-              coding, and project management, and specialize in statistical 
-              forecasting, problem-solving, BI reporting, and dashboard
-              development. I'm also passionate about NFTs, Crypto/DeFi, and 
-              website development.
-            </p>
-            <p class="about__description" style="margin-top: -30px">
-              Driven by a thirst for knowledge and an unwavering dedication to 
-              excellence, I'm always striving to push boundaries and reach new 
-              heights in my personal and professional pursuits.
-            </p>
-            <!-- <div class="about__info">
-              <div>
-                <span class="about__info-title">2.5+</span>
-                <span class="about__info-name"
-                  >years of<br />
-                  experience</span
-                >
-              </div>
-              <div>
-                <span class="about__info-title">02+</span>
-                <span class="about__info-name">companies<br />worked</span>
-              </div>
-              <div>
-                <span class="about__info-title">250+</span>
-                <span class="about__info-name">Cups<br />of coffee</span>
-              </div>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list grid">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link hover-underline">
+                     <i class="uil uil-estate nav__icon"></i>Home
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link hover-underline">
+                     <i class="uil uil-user nav__icon"></i>About
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#skills" class="nav__link hover-underline">
+                     <i class="uil uil-file-alt nav__icon"></i>Skills
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#projects" class="nav__link hover-underline">
+                     <i class="uil uil-briefcase-alt nav__icon"></i>Projects
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link hover-underline">
+                     <i class="uil uil-message nav__icon"></i>Contact
+                     </a>
+                  </li>
+               </ul>
+               <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <!-- <div class="nav__btns">
+               <a
+                  onclick="window.open('https://drive.google.com/file/d/1kznD1ccIINV8wT8oMJyOOgtvfD4JKLUl/view','_blank')"
+                  class="resume-button"
+                  href="./packages/resume/Keven-Meehan-Resume.pdf"
+                  download="Keven-Meehan-Resume"
+                  title="download"
+                  >Resume</a
+                  >
             </div> -->
-
-            <div class="about__buttons">
-              <a
-                onclick="window.open('https://drive.google.com/file/d/1vIW8QutYvTxiIh-wi9mME4m4ibYGYNrf/view','_blank')"
-                href="./packages/resume/Keven-Meehan-Resume.pdf"
-                download="Keven-Meehan-Resume"
-                class="button button--flex"
-                title="Click to Download"
-                >Resume<i class="uil uil-download-alt button__icon"></i
-              ></a>
+            <div class="nav__btns">
+               <i
+                  class="uil uil-moon change-theme"
+                  style="margin-left: 10px"
+                  id="theme-button"
+                  title="Theme"
+                  ></i>
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="uil uil-apps"></i>
+               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== QUALIFICATION ====================-->
-      <section class="qualification__section">
-        <h2 class="section__title">Qualifications</h2>
-        <span class="section__subtitle">My background</span>
-
-        <div class="qualification__container container">
-          <div class="qualification__tabs">
-            <div
-              class="qualification__button button--flex qualification__active"
-              data-target="#education"
-            >
-              <i class="uil uil-graduation-cap qualification__icon"></i>
-              Education
+         </nav>
+      </header>
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__content grid">
+                  <div class="home__social">
+                     <!-- linkedin -->
+                     <a
+                        href="https://www.linkedin.com/in/kevenm/"
+                        target="_blank"
+                        class="home__social-icon"
+                        title="Linkedin"
+                        >
+                     <i class="uil uil-linkedin-alt"></i>
+                     </a>
+                     <!-- github -->
+                     <a
+                        href="https://www.github.com/mister-kev"
+                        target="_blank"
+                        class="home__social-icon"
+                        title="GitHub"
+                        >
+                     <i class="uil uil-github-alt"></i>
+                     </a>
+                     <!-- twitter -->
+                     <a
+                        href="https://twitter.com/kevstrip/"
+                        target="_blank"
+                        class="home__social-icon"
+                        title="Twitter"
+                        >
+                     <i class="uil uil-twitter-alt"></i>
+                     </a>
+                     <!-- instagram -->
+                     <a
+                        href="https://instagram.com/kevenfm"
+                        target="_blank"
+                        class="home__social-icon"
+                        title="Instagram"
+                        >
+                     <i class="uil uil-instagram-alt"></i>
+                     </a>
+                  </div>
+                  <div class="home__data">
+                     <span style="font-size: 16px">Hi, my name is</span>
+                     <h1 class="home__title">Keven Meehan</h1>
+                     <h3 class="home__subtitle">I analyze complex data.</h3>
+                     <p class="home__description">
+                        My approach to tackling complex business inquiries involves 
+                        leveraging a wealth of knowledge and scientific understanding. 
+                        At the moment, I'm actively engaged in developing my skills in React, Solidity, 
+                        and artificial intelligence.
+                     </p>
+                     <a
+                        href="#contact"
+                        class="button button--flex home__button"
+                        title="Contact me"
+                        >
+                     Contact Me<i class="uil uil-message button__icon"></i>
+                     </a>
+                  </div>
+               </div>
+               <div class="home__scroll">
+                  <a href="#about" class="home__scroll-button button--flex">
+                  <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                  <span class="home__scroll-name">Scroll Down</span>
+                  <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                  </a>
+               </div>
             </div>
-
-            <div class="qualification__button button--flex" data-target="#work">
-              <i class="uil uil-briefcase-alt qualification__icon"></i>
-              Work
+         </section>
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My bio</span>
+            <div class="about__container container grid">
+               <img
+                  src="packages/images/kevenmeehan.webp"
+                  alt="Keven's image"
+                  class="about__img"
+                  />
+               <div class="about__data">
+                  <p class="about__description">
+                     Hi, I'm Keven! I bring expertise in data analysis, 
+                     coding, and project management, and specialize in statistical 
+                     forecasting, problem-solving, BI reporting, and dashboard
+                     development. I'm also passionate about NFTs, Crypto/DeFi, and 
+                     website development.
+                  </p>
+                  <p class="about__description" style="margin-top: -30px">
+                     Driven by a thirst for knowledge and an unwavering dedication to 
+                     excellence, I'm always striving to push boundaries and reach new 
+                     heights in my personal and professional pursuits.
+                  </p>
+                  <!-- <div class="about__info">
+                     <div>
+                       <span class="about__info-title">2.5+</span>
+                       <span class="about__info-name"
+                         >years of<br />
+                         experience</span
+                       >
+                     </div>
+                     <div>
+                       <span class="about__info-title">02+</span>
+                       <span class="about__info-name">companies<br />worked</span>
+                     </div>
+                     <div>
+                       <span class="about__info-title">250+</span>
+                       <span class="about__info-name">Cups<br />of coffee</span>
+                     </div>
+                     </div> -->
+                  <div class="about__buttons">
+                     <a
+                        onclick="window.open('https://drive.google.com/file/d/1vIW8QutYvTxiIh-wi9mME4m4ibYGYNrf/view','_blank')"
+                        href="./packages/resume/Keven-Meehan-Resume.pdf"
+                        download="Keven-Meehan-Resume"
+                        class="button button--flex"
+                        title="Click to Download"
+                        >Resume<i class="uil uil-download-alt button__icon"></i
+                        ></a>
+                  </div>
+               </div>
             </div>
-          </div>
-
-          <div class="qualification__sections">
-            <!--==================== QUALIFICATION CONTENT 1 ====================-->
-            <div
-              class="qualification__content qualification__active"
-              data-content
-              id="education"
-            >
-              <!--==================== QUALIFICATION 1 ====================-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">
-                    MBA
-                  </h3>
-                  <span class="qualification__subtitle"
-                    >Stetson University</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    May 2020 - Dec 2022
+         </section>
+         <!--==================== QUALIFICATION ====================-->
+         <section class="qualification__section">
+            <h2 class="section__title">Qualifications</h2>
+            <span class="section__subtitle">My background</span>
+            <div class="qualification__container container">
+               <div class="qualification__tabs">
+                  <div
+                     class="qualification__button button--flex qualification__active"
+                     data-target="#education"
+                     >
+                     <i class="uil uil-graduation-cap qualification__icon"></i>
+                     Education
                   </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-
-              <!--==================== QUALIFICATION 2 ====================-->
-              <div class="qualification__data">
-                <div></div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-
-                <div>
-                  <h3 class="qualification__title">BS, Applied Mathematics</h3>
-                  <span class="qualification__subtitle"
-                    >University of Georgia</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    Jan 2014 - May 2018
+                  <div class="qualification__button button--flex" data-target="#work">
+                     <i class="uil uil-briefcase-alt qualification__icon"></i>
+                     Work
                   </div>
-                </div>
-              </div>
+               </div>
+               <div class="qualification__sections">
+                  <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                  <div
+                     class="qualification__content qualification__active"
+                     data-content
+                     id="education"
+                     >
+                     <!--==================== QUALIFICATION 1 ====================-->
+                     <div class="qualification__data">
+                        <div>
+                           <h3 class="qualification__title">
+                              MBA
+                           </h3>
+                           <span class="qualification__subtitle"
+                              >Stetson University</span
+                              >
+                           <div class="qualification__calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              May 2020 - Dec 2022
+                           </div>
+                        </div>
+                        <div>
+                           <span class="qualification__rounder"></span>
+                           <span class="qualification__line"></span>
+                        </div>
+                     </div>
+                     <!--==================== QUALIFICATION 2 ====================-->
+                     <div class="qualification__data">
+                        <div></div>
+                        <div>
+                           <span class="qualification__rounder"></span>
+                           <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                           <h3 class="qualification__title">BS, Applied Mathematics</h3>
+                           <span class="qualification__subtitle"
+                              >University of Georgia</span
+                              >
+                           <div class="qualification__calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              Jan 2014 - May 2018
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                  <div class="qualification__content" data-content id="work">
+                     <!--==================== Work 1 ====================-->
+                     <div class="qualification__data">
+                        <div>
+                           <h3 class="qualification__title">Sr. Business Analyst</h3>
+                           <span class="qualification__subtitle"
+                              >The Walt Disney Company</span
+                              >
+                           <div class="qualification__calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              May 2022 - Present
+                           </div>
+                        </div>
+                        <div>
+                           <span class="qualification__rounder"></span>
+                           <span class="qualification__line"></span>
+                        </div>
+                     </div>
+                     <!--==================== Work 2 ====================-->
+                     <div class="qualification__data">
+                        <div></div>
+                        <div>
+                           <span class="qualification__rounder"></span>
+                           <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                           <h3 class="qualification__title">Sr. Demand Planner</h3>
+                           <span class="qualification__subtitle"
+                              >The Walt Disney Company</span
+                              >
+                           <div class="qualification__calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              Jan 2020 - May 2022
+                           </div>
+                        </div>
+                     </div>
+                     <!--==================== Work 3 ====================-->
+                     <div class="qualification__data">
+                        <div>
+                           <h3 class="qualification__title">Demand Planner</h3>
+                           <span class="qualification__subtitle"
+                              >The Walt Disney Company</span
+                              >
+                           <div class="qualification__calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              Aug 2018 - Jan 2020
+                           </div>
+                        </div>
+                        <div>
+                           <span class="qualification__rounder"></span>
+                           <span class="qualification__line"></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-
-            <!--==================== QUALIFICATION CONTENT 2 ====================-->
-            <div class="qualification__content" data-content id="work">
-              <!--==================== Work 1 ====================-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Sr. Business Analyst</h3>
-                  <span class="qualification__subtitle"
-                    >The Walt Disney Company</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    May 2022 - Present
+         </section>
+         <!--==================== SKILLS ====================-->
+         <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technologies</span>
+            <div class="skills__container container grid">
+               <div>
+                  <div class="skills__content skills__open">
+                     <div class="skills__list grid">
+                        <div class="tech__row">
+                           <!-- job specific -->
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    icon="logos:tableau-icon"                       
+                                    height="40"
+                                    width="35"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">Tableau<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    icon="logos:microsoft-power-bi"                        
+                                    height="40"
+                                    width="35"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">Power BI<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon 
+                                    icon="vscode-icons:file-type-excel" 
+                                    height="40" 
+                                    width="45">
+                                    >
+                                 </iconify-icon
+                                    >
+                                 <h3 class="services__title">Excel<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    icon="logos:r-lang"
+                                    height="40"
+                                    width="40"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">R<br /></h3>
+                              </div>
+                           </div>
+                           <!-- business specific -->
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon 
+                                    style="color: #13478C"
+                                    icon="file-icons:sas" 
+                                    height="40" 
+                                    width="45">
+                                    >
+                                 </iconify-icon
+                                    >
+                                 <h3 class="services__title">SAS<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon 
+                                    style="color: #df3741"
+                                    icon="simple-icons:microstrategy"                       
+                                    height="40" 
+                                    width="45">
+                                    >
+                                 </iconify-icon
+                                    >
+                                 <h3 class="services__title">MicroStrategy<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon 
+                                    style="color: #C74634"
+                                    icon="grommet-icons:oracle"                        
+                                    height="40" 
+                                    width="45">
+                                    >
+                                 </iconify-icon
+                                    >
+                                 <h3 class="services__title">RDF<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    icon="logos:snowflake-icon"
+                                    height="40"
+                                    width="35"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">Snowflake<br /></h3>
+                              </div>
+                           </div>
+                           <!-- languages/programming 1-->
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    icon="logos:mysql-icon"
+                                    height="40"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">SQL<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    icon="vscode-icons:file-type-sql"
+                                    height="40"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">SSIS<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    icon="vscode-icons:file-type-html"
+                                    height="40"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">HTML<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    icon="logos:solidity"
+                                    height="40"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">Solidity<br /></h3>
+                              </div>
+                           </div>
+                           <!-- languages/programming 1-->
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    icon="logos:javascript"
+                                    height="40"
+                                    width="35"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">JavaScript<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    style="color: #e84d31"
+                                    icon="fa6-brands:git-alt"
+                                    height="40"
+                                    width="35"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">Git<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    style="color: #1f1e1e"
+                                    icon="ant-design:github-filled"
+                                    height="40"
+                                    width="35"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">GitHub<br /></h3>
+                              </div>
+                           </div>
+                           <div class="skill__box">
+                              <div>
+                                 <iconify-icon
+                                    icon="vscode-icons:file-type-vscode"
+                                    height="40"
+                                    width="35"
+                                    ></iconify-icon>
+                                 <h3 class="services__title">VsCode<br /></h3>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-
-              <!--==================== Work 2 ====================-->
-              <div class="qualification__data">
-                <div></div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-
-                <div>
-                  <h3 class="qualification__title">Sr. Demand Planner</h3>
-                  <span class="qualification__subtitle"
-                    >The Walt Disney Company</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    Jan 2020 - May 2022
-                  </div>
-                </div>
-              </div>
-              <!--==================== Work 3 ====================-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Demand Planner</h3>
-                  <span class="qualification__subtitle"
-                    >The Walt Disney Company</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    Aug 2018 - Jan 2020
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
+               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">My technologies</span>
-
-        <div class="skills__container container grid">
-          <div>
-            <div class="skills__content skills__open">
-              <div class="skills__list grid">
-                <div class="tech__row">
-                  <!-- job specific -->
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        icon="logos:tableau-icon"                       
-                        height="40"
-                        width="35"
-                      ></iconify-icon>
-                      <h3 class="services__title">Tableau<br /></h3>
-                    </div>
+         </section>
+         <!--==================== Projects ====================-->
+         <section class="services section" id="projects" style="margin-top: 50px">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Personal & Professional Projects</span>
+            <div class="services__container container grid">
+               <!--==================== Project 1 ====================-->
+               <div class="services__content">
+                  <div class="portfolio-projects">
+                     <div class="project-img">
+                        <img
+                           src="./packages/images/uc.webp"
+                           alt="Universal-Collective"
+                           title="Universal-Collective"
+                           />
+                     </div>
+                     <div class="project-title">
+                        <h3 class="title" title="Title">Universal Collective</h3>
+                     </div>
+                     <div class="project-desc">
+                        <p title="Details">
+                           Partnering with top-tier talent in creating a fashion-forward,
+                           artistic movement and brand in the Web3 community.
+                        </p>
+                     </div>
+                     <div class="project-tech">
+                        <p title="Tech Stack">
+                           Entrepreneurship &nbsp;|&nbsp; Web3
+                        </p>
+                     </div>
                   </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        icon="logos:microsoft-power-bi"                        
-                        height="40"
-                        width="35"
-                      ></iconify-icon>
-                      <h3 class="services__title">Power BI<br /></h3>
-                    </div>
+               </div>
+               <!--==================== Project 2 ====================-->
+               <div class="services__content">
+                  <div class="portfolio-projects">
+                     <div class="project-img">
+                        <img
+                           src="./packages/images/datastrat.webp"
+                           alt="Data-Strategy"
+                           title="Data-Strategy"
+                           />
+                     </div>
+                     <div class="project-title">
+                        <h3 class="title" title="Title">Data Transformation Strategy</h3>
+                     </div>
+                     <div class="project-desc">
+                        <p title="Details">
+                           Leading the data transformation strategy in upgrading the
+                           reporting platform and data warehouse for the Retail 
+                           Analytics team, by overseeing complex data pipelines,
+                           developing complex Tableau dashboards, and leveraging
+                           cross-functional teams.
+                        </p>
+                     </div>
+                     <div class="project-tech">
+                        <p title="Tech Stack">
+                           Snowflake &nbsp;|&nbsp; Tableau &nbsp;|&nbsp; SSIS
+                        </p>
+                     </div>
                   </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon 
-                        icon="vscode-icons:file-type-excel" 
-                        height="40" 
-                        width="45">
-                        ></iconify-icon
-                      >
-                      <h3 class="services__title">Excel<br /></h3>
-                    </div>
+               </div>
+               <!--==================== Project 3 ====================-->
+               <div class="services__content">
+                  <div class="portfolio-projects">
+                     <div class="project-img">
+                        <img
+                           src="./packages/images/containers.webp"
+                           alt="Container-Prioritization-Module-Upgrade"
+                           title="Container-Prioritization-Module-Upgrade"
+                           />
+                     </div>
+                     <div class="project-title">
+                        <h3 class="title" title="Title">Container Prioritization</h3>
+                     </div>
+                     <div class="project-desc">
+                        <p title="Details">
+                           Implemented a logistics-based system for reporting and a 
+                           fully autonomous Tableau dashboard, providing real-time 
+                           insights into international supply chain management for 
+                           domestic Theme Park merchandise.
+                        </p>
+                     </div>
+                     <div class="project-tech">
+                        <p title="Tech Stack">
+                           Snowflake &nbsp;|&nbsp; Tableau &nbsp;|&nbsp; SSIS
+                        </p>
+                     </div>
                   </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        icon="logos:r-lang"
-                        height="40"
-                        width="40"
-                      ></iconify-icon>
-                      <h3 class="services__title">R<br /></h3>
-                    </div>
-                  </div>    
-                    <!-- business specific -->
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon 
-                        style="color: #13478C"
-                        icon="file-icons:sas" 
-                        height="40" 
-                        width="45">
-                        ></iconify-icon
-                      >
-                      <h3 class="services__title">SAS<br /></h3>
-                    </div>
+               </div>
+               <!--==================== Project 4 ====================-->
+               <div class="services__content">
+                  <div class="portfolio-projects">
+                     <div class="project-img">
+                        <img
+                           src="./packages/images/replmodel.webp"
+                           alt="Replenishment-Model-Upgrade"
+                           title="Replenishment-Model-Upgrade"
+                           />
+                     </div>
+                     <div class="project-title">
+                        <h3 class="title" title="Title">Replenishment Upgrade</h3>
+                     </div>
+                     <div class="project-desc">
+                        <p title="Details">
+                           Revamped a retailer's location replenishment model by modifying 
+                           the way sales history units are calculated, implementing new rules 
+                           for average sales and merchandise financial planning forecast, and 
+                           utilizing daily historical sales calculations.
+                        </p>
+                     </div>
+                     <div class="project-tech">
+                        <p title="Tech Stack">
+                           Snowflake &nbsp;|&nbsp; Tableau
+                        </p>
+                     </div>
                   </div>
-                
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon 
-                        style="color: #df3741"
-                        icon="simple-icons:microstrategy"                       
-                        height="40" 
-                        width="45">
-                        ></iconify-icon
-                      >
-                      <h3 class="services__title">MicroStrategy<br /></h3>
-                    </div>
+               </div>
+               <!--==================== Project 5 ====================-->
+               <div class="services__content">
+                  <div class="portfolio-projects">
+                     <div class="project-img">
+                        <img
+                           src="./packages/images/fa.webp"
+                           alt="Forecast-Accuracy-DB"
+                           title="Forecast-Accuracy-DB"
+                           />
+                     </div>
+                     <div class="project-title">
+                        <h3 class="title" title="Title">Autonomous Reporting</h3>
+                     </div>
+                     <div class="project-desc">
+                        <p title="Details">
+                           Created a self-service Tableau dashboard to identify areas 
+                           of over- and under-forecasting for Demand Planning team, 
+                           thereby improving forecast accuracy and addressing related 
+                           issues efficiently.
+                        </p>
+                     </div>
+                     <div class="project-tech">
+                        <p title="Tech Stack">
+                           Snowflake &nbsp;|&nbsp; Tableau
+                        </p>
+                     </div>
                   </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon 
-                        style="color: #C74634"
-                        icon="grommet-icons:oracle"                        
-                        height="40" 
-                        width="45">
-                        ></iconify-icon
-                      >
-                      <h3 class="services__title">RDF<br /></h3>
-                    </div>
-                  </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        icon="logos:snowflake-icon"
-                        height="40"
-                        width="35"
-                      ></iconify-icon>
-                      <h3 class="services__title">Snowflake<br /></h3>
-                    </div>
-                  </div>
-                  <!-- languages/programming 1-->
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        icon="logos:mysql-icon"
-                        height="40"
-                      ></iconify-icon>
-                      <h3 class="services__title">SQL<br /></h3>
-                    </div>
-                  </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        icon="vscode-icons:file-type-sql"
-                        height="40"
-                      ></iconify-icon>
-                      <h3 class="services__title">SSIS<br /></h3>
-                    </div>
-                  </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        icon="vscode-icons:file-type-html"
-                        height="40"
-                      ></iconify-icon>
-                      <h3 class="services__title">HTML<br /></h3>
-                    </div>
-                  </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        icon="logos:solidity"
-                        height="40"
-                      ></iconify-icon>
-                      <h3 class="services__title">Solidity<br /></h3>
-                    </div>
-                  </div>
-                  
-                   <!-- languages/programming 1-->
-                   <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        icon="logos:javascript"
-                        height="40"
-                        width="35"
-                      ></iconify-icon>
-                      <h3 class="services__title">JavaScript<br /></h3>
-                    </div>
-                  </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        style="color: #e84d31"
-                        icon="fa6-brands:git-alt"
-                        height="40"
-                        width="35"
-                      ></iconify-icon>
-                      <h3 class="services__title">Git<br /></h3>
-                    </div>
-                  </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        style="color: #1f1e1e"
-                        icon="ant-design:github-filled"
-                        height="40"
-                        width="35"
-                      ></iconify-icon>
-                      <h3 class="services__title">GitHub<br /></h3>
-                    </div>
-                  </div>
-                  <div class="skill__box">
-                    <div>
-                      <iconify-icon
-                        icon="vscode-icons:file-type-vscode"
-                        height="40"
-                        width="35"
-                      ></iconify-icon>
-                      <h3 class="services__title">VsCode<br /></h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
+               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== Projects ====================-->
-      <section class="services section" id="projects" style="margin-top: 50px">
-        <h2 class="section__title">Projects</h2>
-        <span class="section__subtitle">Personal & Professional Projects</span>
-
-        <div class="services__container container grid">
-
-          <!--==================== Project 1 ====================-->
-          <div class="services__content">
-            <div class="portfolio-projects">
-              <div class="project-img">
-                <img
-                  src="./packages/images/uc.webp"
-                  alt="Universal-Collective"
-                  title="Universal-Collective"
-                />
-              </div>
-              <div class="project-title">
-                <h3 class="title" title="Title">Universal Collective</h3>
-              </div>
-              <div class="project-desc">
-                <p title="Details">
-                  Partnering with top-tier talent in creating a fashion-forward,
-                  artistic movement and brand in the Web3 community.
-                </p>
-              </div>
-              <div class="project-tech">
-                <p title="Tech Stack">
-                  Entrepreneurship &nbsp;|&nbsp; Web3
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <!--==================== Project 2 ====================-->
-
-          <div class="services__content">
-            <div class="portfolio-projects">
-              <div class="project-img">
-                <img
-                  src="./packages/images/datastrat.webp"
-                  alt="Data-Strategy"
-                  title="Data-Strategy"
-                />
-              </div>
-              <div class="project-title">
-                <h3 class="title" title="Title">Data Transformation Strategy</h3>
-              </div>
-              <div class="project-desc">
-                <p title="Details">
-                  Leading the data transformation strategy in upgrading the
-                  reporting platform and data warehouse for the Retail 
-                  Analytics team, by overseeing complex data pipelines,
-                  developing complex Tableau dashboards, and leveraging
-                  cross-functional teams.
-                </p>
-              </div>
-              <div class="project-tech">
-                <p title="Tech Stack">
-                  Snowflake &nbsp;|&nbsp; Tableau &nbsp;|&nbsp; SSIS
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <!--==================== Project 3 ====================-->
-
-          <div class="services__content">
-            <div class="portfolio-projects">
-              <div class="project-img">
-                <img
-                  src="./packages/images/containers.webp"
-                  alt="Container-Prioritization-Module-Upgrade"
-                  title="Container-Prioritization-Module-Upgrade"
-                />
-              </div>
-              <div class="project-title">
-                <h3 class="title" title="Title">Container Prioritization</h3>
-              </div>
-              <div class="project-desc">
-                <p title="Details">
-                  Implemented a logistics-based system for reporting and a 
-                  fully autonomous Tableau dashboard, providing real-time 
-                  insights into international supply chain management for 
-                  domestic Theme Park merchandise.
-                </p>
-              </div>
-              <div class="project-tech">
-                <p title="Tech Stack">
-                  Snowflake &nbsp;|&nbsp; Tableau &nbsp;|&nbsp; SSIS
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!--==================== Project 4 ====================-->
-          <div class="services__content">
-            <div class="portfolio-projects">
-              <div class="project-img">
-                <img
-                  src="./packages/images/replmodel.webp"
-                  alt="Replenishment-Model-Upgrade"
-                  title="Replenishment-Model-Upgrade"
-                />
-              </div>
-              <div class="project-title">
-                <h3 class="title" title="Title">Replenishment Upgrade</h3>
-              </div>
-              <div class="project-desc">
-                <p title="Details">
-                  Revamped a retailer's location replenishment model by modifying 
-                  the way sales history units are calculated, implementing new rules 
-                  for average sales and merchandise financial planning forecast, and 
-                  utilizing daily historical sales calculations.
-                </p>
-              </div>
-              <div class="project-tech">
-                <p title="Tech Stack">
-                  Snowflake &nbsp;|&nbsp; Tableau
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!--==================== Project 5 ====================-->
-          <div class="services__content">
-            <div class="portfolio-projects">
-              <div class="project-img">
-                <img
-                  src="./packages/images/fa.webp"
-                  alt="Forecast-Accuracy-DB"
-                  title="Forecast-Accuracy-DB"
-                />
-              </div>
-              <div class="project-title">
-                <h3 class="title" title="Title">Autonomous Reporting</h3>
-              </div>
-              <div class="project-desc">
-                <p title="Details">
-                  Created a self-service Tableau dashboard to identify areas 
-                  of over- and under-forecasting for Demand Planning team, 
-                  thereby improving forecast accuracy and addressing related 
-                  issues efficiently.
-                </p>
-              </div>
-              <div class="project-tech">
-                <p title="Tech Stack">
-                  Snowflake &nbsp;|&nbsp; Tableau
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== Statistic ====================-->
-      <section class="skills section" id="statistic">
-        <h2 class="section__title">Statistics</h2>
-        <span class="section__subtitle"></span>
-
-        <div class="statistic__row">
-          <div class="content">
-            <div class="statistic__circle">
-              <div class="container round">
-                <div class="circular">
-                  <div class="inner"></div>
-                  <div class="number">1200+</div>
-                  <div class="circle">
-                    <div class="bar left">
-                      <div class="progress"></div>
-                    </div>
-                    <div class="bar right">
-                      <div class="progress"></div>
-                    </div>
+         </section>
+         <!--==================== Statistic ====================-->
+         <section class="skills section" id="statistic">
+            <h2 class="section__title">Statistics</h2>
+            <span class="section__subtitle"></span>
+            <div class="statistic__row">
+               <div class="content">
+                  <div class="statistic__circle">
+                     <div class="container round">
+                        <div class="circular">
+                           <div class="inner"></div>
+                           <div class="number">1200+</div>
+                           <div class="circle">
+                              <div class="bar left">
+                                 <div class="progress"></div>
+                              </div>
+                              <div class="bar right">
+                                 <div class="progress"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <h3>Hours</h3>
+                     <p style="margin-top: -30px">of analysis</p>
                   </div>
-                </div>
-              </div>
-              <h3>Hours</h3>
-              <p style="margin-top: -30px">of analysis</p>
-            </div>
-            <div class="statistic__circle">
-              <div class="container round">
-                <div class="circular">
-                  <div class="inner"></div>
-                  <div class="number">$1B+</div>
-                  <div class="circle">
-                    <div class="bar left">
-                      <div class="progress"></div>
-                    </div>
-                    <div class="bar right">
-                      <div class="progress"></div>
-                    </div>
+                  <div class="statistic__circle">
+                     <div class="container round">
+                        <div class="circular">
+                           <div class="inner"></div>
+                           <div class="number">$1B+</div>
+                           <div class="circle">
+                              <div class="bar left">
+                                 <div class="progress"></div>
+                              </div>
+                              <div class="bar right">
+                                 <div class="progress"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <h3>Inventory</h3>
+                     <p style="margin-top: -30px">managed</p>
                   </div>
-                </div>
-              </div>
-              <h3>Inventory</h3>
-              <p style="margin-top: -30px">managed</p>
-            </div>
-            <div class="statistic__circle">
-              <div class="container round">
-                <div class="circular">
-                  <div class="inner"></div>
-                  <div class="number">200+</div>
-                  <div class="circle">
-                    <div class="bar left">
-                      <div class="progress"></div>
-                    </div>
-                    <div class="bar right">
-                      <div class="progress"></div>
-                    </div>
+                  <div class="statistic__circle">
+                     <div class="container round">
+                        <div class="circular">
+                           <div class="inner"></div>
+                           <div class="number">200+</div>
+                           <div class="circle">
+                              <div class="bar left">
+                                 <div class="progress"></div>
+                              </div>
+                              <div class="bar right">
+                                 <div class="progress"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <h3>Hours</h3>
+                     <p style="margin-top: -30px">of coding</p>
                   </div>
-                </div>
-              </div>
-              <h3>Hours</h3>
-              <p style="margin-top: -30px">of coding</p>
-            </div>
-            <div class="statistic__circle">
-              <div class="container round">
-                <div class="circular">
-                  <div class="inner"></div>
-                  <div class="number">20+</div>
-                  <div class="circle">
-                    <div class="bar left">
-                      <div class="progress"></div>
-                    </div>
-                    <div class="bar right">
-                      <div class="progress"></div>
-                    </div>
+                  <div class="statistic__circle">
+                     <div class="container round">
+                        <div class="circular">
+                           <div class="inner"></div>
+                           <div class="number">20+</div>
+                           <div class="circle">
+                              <div class="bar left">
+                                 <div class="progress"></div>
+                              </div>
+                              <div class="bar right">
+                                 <div class="progress"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <h3>Projects</h3>
+                     <p style="margin-top: -30px">done</p>
                   </div>
-                </div>
-              </div>
-              <h3>Projects</h3>
-              <p style="margin-top: -30px">done</p>
-            </div>
-            <div class="statistic__circle">
-              <div class="container round">
-                <div class="circular">
-                  <div class="inner"></div>
-                  <div class="number">150+</div>
-                  <div class="circle">
-                    <div class="bar left">
-                      <div class="progress"></div>
-                    </div>
-                    <div class="bar right">
-                      <div class="progress"></div>
-                    </div>
+                  <div class="statistic__circle">
+                     <div class="container round">
+                        <div class="circular">
+                           <div class="inner"></div>
+                           <div class="number">150+</div>
+                           <div class="circle">
+                              <div class="bar left">
+                                 <div class="progress"></div>
+                              </div>
+                              <div class="bar right">
+                                 <div class="progress"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <h3>Hours</h3>
+                     <p style="margin-top: -30px">of soft skills</p>
                   </div>
-                </div>
-              </div>
-              <h3>Hours</h3>
-              <p style="margin-top: -30px">of soft skills</p>
+               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-  
-      <!--==================== CONTACT ME ====================-->
-      <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in touch</span>
-
-        <div class="contact__container container grid">
-          <div>
-            <div class="contact__information">
-              <i class="uil uil-linkedin-alt contact__icon"></i>
-
-              <div>
-                <a
-                  class="hover-underline"
-                  href="https://www.linkedin.com/in/kevenm/"
-                  target="_blank"
-                  style="color: #6a797c"
-                  title="click to open linkedin"
-                >
-                  <h3 class="contact__title">Linkedin</h3>
-                  <span class="contatc__subtitle">@kevenm</span>
-                </a>
-              </div>
+         </section>
+         <!--==================== CONTACT ME ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            <div class="contact__container container grid">
+               <div>
+                  <div class="contact__information">
+                     <i class="uil uil-linkedin-alt contact__icon"></i>
+                     <div>
+                        <a
+                           class="hover-underline"
+                           href="https://www.linkedin.com/in/kevenm/"
+                           target="_blank"
+                           style="color: #6a797c"
+                           title="click to open linkedin"
+                           >
+                           <h3 class="contact__title">Linkedin</h3>
+                           <span class="contatc__subtitle">@kevenm</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="contact__information">
+                     <i class="uil uil-github-alt contact__icon"></i>
+                     <div>
+                        <a
+                           class="hover-underline"
+                           href="https://github.com/mister-kev"
+                           target="_blank"
+                           style="color: #6a797c"
+                           title="click to open github"
+                           >
+                           <h3 class="contact__title">GitHub</h3>
+                           <span class="contatc__subtitle">@mister-kev</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="contact__information">
+                     <i class="uil uil-discord contact__icon"></i>
+                     <div>
+                        <a
+                           class="hover-underline"
+                           href="kΞvo#3690"
+                           style="color: #6a797c"
+                           title="add on discord"
+                           >
+                           <h3 class="contact__title">Discord</h3>
+                           <span class="contatc__subtitle">kΞvo#3690</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="contact__information">
+                     <i class="uil uil-envelope contact__icon"></i>
+                     <div>
+                        <a
+                           class="hover-underline"
+                           href="mailto:kf.me@icloud.com"
+                           style="color: #6a797c"
+                           title="click to send email"
+                           >
+                           <h3 class="contact__title">E-mail</h3>
+                           <span class="contatc__subtitle"
+                              >kf.me@icloud.com</span
+                              >
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <form class="contact__form grid" id="contact-form">
+                  <div class="contact__inputs grid">
+                     <div class="contact__content">
+                        <!--  <label for="Name" class="contact__label">Name</label> -->
+                        <label class="contact__label">Name</label>
+                        <input type="text" class="contact__input" id="name" required />
+                     </div>
+                     <div class="contact__content">
+                        <!-- <label for="Email" class="contact__label">E-mail</label> -->
+                        <label class="contact__label">E-mail</label>
+                        <input
+                           type="email"
+                           class="contact__input"
+                           id="email"
+                           required
+                           />
+                     </div>
+                  </div>
+                  <div class="contact__content">
+                     <!-- <label for="Message" class="contact__label">Message</label> -->
+                     <label class="contact__label">Message</label>
+                     <textarea
+                        required
+                        id="message"
+                        cols="1"
+                        rows="7"
+                        class="contact__input"
+                        title="Please fill out the this field."
+                        ></textarea>
+                  </div>
+                  <p
+                     style="font-size: 12px; margin-top: -15px"
+                     title="Put your mail only"
+                     >
+                     <span style="color: #57c9e0">* </span> You will get a confirmation
+                     mail after sending the message.
+                  </p>
+                  <div>
+                     <button
+                        id="email-submit"
+                        class="button button--flex"
+                        style="
+                        outline: none;
+                        border: none;
+                        cursor: pointer;
+                        font-size: 16px;
+                        "
+                        title="Send message"
+                        >
+                     Send message
+                     <i class="uil uil-message button__icon"></i>
+                     </button>
+                  </div>
+               </form>
             </div>
-
-            <div class="contact__information">
-              <i class="uil uil-github-alt contact__icon"></i>
-
-              <div>
-                <a
-                  class="hover-underline"
-                  href="https://github.com/mister-kev"
-                  target="_blank"
-                  style="color: #6a797c"
-                  title="click to open github"
-                >
-                  <h3 class="contact__title">GitHub</h3>
-                  <span class="contatc__subtitle">@mister-kev</span>
-                </a>
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-discord contact__icon"></i>
-
-              <div>
-                <a
-                  class="hover-underline"
-                  href="kΞvo#3690"
-                  style="color: #6a797c"
-                  title="add on discord"
-                >
-                  <h3 class="contact__title">Discord</h3>
-                  <span class="contatc__subtitle">kΞvo#3690</span>
-                </a>
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-envelope contact__icon"></i>
-              <div>
-                <a
-                  class="hover-underline"
-                  href="mailto:kf.me@icloud.com"
-                  style="color: #6a797c"
-                  title="click to send email"
-                >
-                  <h3 class="contact__title">E-mail</h3>
-
-                  <span class="contatc__subtitle"
-                    >kf.me@icloud.com</span
-                  >
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <form class="contact__form grid" id="contact-form">
-            <div class="contact__inputs grid">
-              <div class="contact__content">
-                <label for="" class="contact__label">Name</label>
-                <input type="text" class="contact__input" id="name" required />
-              </div>
-
-              <div class="contact__content">
-                <label for="" class="contact__label">E-mail</label>
-                <input
-                  type="email"
-                  class="contact__input"
-                  id="email"
-                  required
-                />
-              </div>
-            </div>
-
-            <div class="contact__content">
-              <label for="" class="contact__label">Message</label>
-              <textarea
-                required
-                id="message"
-                cols="0"
-                rows="7"
-                class="contact__input"
-                title="Please fill out the this field."
-              ></textarea>
-            </div>
-
-            <p
-              style="font-size: 12px; margin-top: -15px"
-              title="Put your mail only"
-            >
-              <span style="color: #57c9e0">* </span> You will get a confirmation
-              mail after sending the message.
+         </section>
+      </main>
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__bg">
+            <p class="footer__copy">
+               Made with ❤️ by Keven Meehan
             </p>
-            <div>
-              <button
-                id="email-submit"
-                class="button button--flex"
-                style="
-                  outline: none;
-                  border: none;
-                  cursor: pointer;
-                  font-size: 16px;
-                "
-                title="Send message"
-              >
-                Send message
-                <i class="uil uil-message button__icon"></i>
-              </button>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-      <div class="footer__bg">
-        <p class="footer__copy">
-          Made with ❤️ by Keven Meehan
-        </p>
-      </div>
-    </footer>
-
-    <!--==================== SCROLL TOP ====================-->
-    <a href="#" class="scrollup" id="scroll-up" title="click to go up">
+         </div>
+      </footer>
+      <!--==================== SCROLL TOP ====================-->
+      <a href="#" class="scrollup" id="scroll-up" title="click to go up">
       <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
-
-    <!--==================== MAIN JS ====================-->
-    <script src="./packages/js/main.js"></script>
-  </body>
+      </a>
+      <!--==================== MAIN JS ====================-->
+      <script src="./packages/js/main.js"></script>
+   </body>
 </html>
