@@ -188,7 +188,7 @@ img {
 .hover-underline {
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: #800303;
 }
 
 .hover-underline:after {
@@ -199,7 +199,7 @@ img {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: #800303;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -634,13 +634,14 @@ img {
   position: absolute;
   height: 100%;
   width: 100%;
-  -webkit-border-radius: 100%;
+  border-radius: 50%; /* Use border-radius to create a circular element */
   clip: rect(0px, 100px, 100px, 50px);
   transform: rotate(250deg);
   border-width: 9px;
   border-style: solid;
-  border-color: #43b5cb;
+  border-color: #800303;
 }
+
 
 .round .bar {
   clip: unset;
@@ -777,7 +778,7 @@ img {
   color: #52627c;
 }
 .project-title a:hover {
-  color: #43b5cb;
+  color: #cb4343;
 }
 
 /*==================== github stats ====================*/
@@ -812,7 +813,7 @@ img {
   flex-wrap: wrap;
   gap: 0px 20px;
   font-size: 15px;
-  color: #697979;
+  color: #796969;
   margin: 10px 20px 20px 20px;
 }
 .action-area {
@@ -866,7 +867,7 @@ form textarea {
 .contact-button {
   width: 160px;
   cursor: pointer;
-  background: #2768d9;
+  background: #5f0e0e;
   color: #fff;
   justify-content: center;
   text-transform: uppercase;
